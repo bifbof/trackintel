@@ -4,4 +4,4 @@ jobs:
   build-n-publish:
     - name: Publish distribution 📦 to PyPI
       if: startsWith(github.ref, 'refs/tags')
-        run: echo "Hello tag ${{ github.ref }}"
+      run: echo "Hello tag ${{ github.ref }}"
